@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desafio.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulários Dados Pessoais</h1>
+    <form action="" method="post"></form>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>Nome</label>
+        <input type="text" name="Nome" size="30" placeholder="Digite aqui"> <br>
+        <label>Data de Nascimento</label>
+        <input type="date" name="Nascimento"> <br>    
+        <label>Nro</label>
+        <input type="text" name="Num" size="8"> <br>
+        <label>Cidade</label>
+        <input type="text" name="Cidade" size="25"> <br>
+        <label>Estado</label>
+        <select name="Estado">
+            <option value="">Selecione</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option> </select>
+            <label>Sexo</label>
+            <select name="Sexo" id="">
+                <option value="">Selecione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="N">Não Binário</option>
+            </select> <br>
+        <label>Bens Pessoais:</label> <br>
+            <input type="checkbox" name="bens" value="casa"> Casa <br>
+            <input type="checkbox" name="bens" value="carro"> Carro<br>
+            <input type="checkbox" name="bens" value="moto"> Moto<br>
+            <label >Experiências Pessoais</label><br>
+            <textarea name="exp" id="" cols="25" rows="6" placeholder="Experiências Pessoais"></textarea>
+        <input type="submit" name="envia" value="Enviar">
+<input type="reset" name="limpa" id="Limpar">
+    </fieldset>
+    
+</body>
+</html>
